@@ -141,6 +141,12 @@
     <Compile Include="main.c">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="sht_sts_driver.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="sht_sts_driver.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="twi_master.c">
       <SubType>compile</SubType>
     </Compile>

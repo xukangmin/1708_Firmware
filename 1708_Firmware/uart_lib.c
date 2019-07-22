@@ -51,10 +51,13 @@
 
 	 USART0_CTRLA |= (1 << USART_RS4850_bp);  // enable RS485 Support
 		
+	USART0_CTRLA |= (1 << USART_RXCIE_bp);
+	
 	 USART0_CTRLB = (1 << USART_RXEN_bp) | (1 << USART_TXEN_bp);  // enable RX and TX
 
 	 USART0_CTRLC = (1 << USART_CHSIZE0_bp) | (1 << USART_CHSIZE1_bp); // 8 bit None parity 1stop bit
 
+	USART0_STATUS |= ( 1 << USART_RXCIE_bp);
 	
  }
 
