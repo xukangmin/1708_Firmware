@@ -38,10 +38,10 @@
 #define DEFAULT_CAL_E 1.0f
 #define DEFAULT_CAL_F 0.0f
 
-#define DEFAULT_SETTING "41020030"
+#define DEFAULT_SETTING "41070030"
 // setting = [Single Address x 2 bytes] + [uart baud rate x 2 bytes] + [check_sum_enable x 1 byte] + [delay x 1 byte] + [avg_level x 1 byte]
 
-#define DEFAULT_ADDR "08A012"
+#define DEFAULT_ADDR "08A020"
 #define DEFAULT_SINGLE_PRIMARY_ID 0x41
 #define DEFAULT_SINGLE_TEMP_ADDR  0x42
 #define DEFAULT_SINGLE_RH_ADDR	  0x43
